@@ -34,7 +34,7 @@ export async function getStaticProps() {
   /// fetch data from an API
 
   const client = await MongoClient.connect(
-    "mongodb+srv://udemyCourse:udemyCourse@cluster0.k1rxm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    "mongodb+srv://<username>:<passsword>@cluster0.k1rxm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
   );
   const db = client.db();
 
